@@ -45,3 +45,22 @@ h3{
 .why hr{
   margin-top: 1.3rem;
 }
+
+/* TABLET RESPONSIVE */
+@media screen and (min-width: 768px){
+  /* GENERAL */
+  h3{
+    text-align: center;
+  }
+
+  /* LEZIONI SECTION */
+  .lezioni img{
+    max-width: none;
+    max-height: 150px;
+  }
+  /* STEPS SECTION */
+  /* WHY SECTION */
+  .why div{
+    text-align: center;
+  }
+}
