@@ -46,7 +46,7 @@ h3{
   margin-top: 1.3rem;
 }
 
-/* TABLET RESPONSIVE */
+/* TABLET RESPONSIVE >768 */
 @media screen and (min-width: 768px){
   /* GENERAL */
   h3{
@@ -58,9 +58,83 @@ h3{
     max-width: none;
     max-height: 150px;
   }
+
   /* STEPS SECTION */
+  .steps{
+    text-align: center;
+  }
+
+  .steps .col-xs-12{
+    margin-bottom: 1.3rem;
+  }
   /* WHY SECTION */
   .why div{
     text-align: center;
+  }
+}
+
+/* DESKTOP RESPONSIVE >992 */
+@media screen and (min-width: 992px){
+  /* GENERAL */
+  *{
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    font-family: serif;
+  }
+
+  section{
+    margin-top: 100px;
+  }
+
+  img{
+  max-width: none;
+  margin: 0 auto;
+  }
+
+  h1{
+    padding: 0;
+  }
+
+  h3{
+    margin: 0;
+  }
+  /* LEZIONI SECTION */
+
+  .lezioni img{
+    max-height: 200px;
+  }
+
+  /* STEP AND WHY SECTIONS */
+  .steps,
+  .why{
+    background: #f9f9f9;
+    padding-bottom: 0;
+  }
+
+  /* STEPS SECTION */
+  .steps{
+    margin-top:100px;
+  }
+
+  .steps .col-xs-12{
+    margin-bottom: 0;
+  }
+
+  .steps img{
+    height: 200px;
+  }
+  /* WHY SECTION */
+  .why div{
+    text-align: center;
+  }
+
+  .why img{
+    margin-top: 100px;
+    max-height: 200px;
+  }
+
+  .why hr{
+  margin-top: 0;
   }
 }
